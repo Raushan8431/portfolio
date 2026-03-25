@@ -8,7 +8,7 @@ import Education from './sections/Education';
 import Certifications from './sections/Certifications';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
-import Terminal from './components/Terminal';
+//import Terminal from './components/Terminal';    <Terminal />
 import { ScrollProvider } from './context/ScrollContext';
 import Cursor from './components/Cursor';
 
@@ -30,7 +30,6 @@ function App() {
           <Contact />
         </main>
         <Footer />
-        <Terminal />
       </div>
     </ScrollProvider>
   );
